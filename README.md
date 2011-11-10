@@ -14,6 +14,9 @@ This is a sample project that shows one way of implementing asynchronous backgro
 Either clone the repository
 `git clone git://github.com/Gekkio/zk-async-example.git`
 
+and use the async branch
+`git checkout async`
+
 or download a ZIP by using the ZIP button above and unzip that.
 
 # 2. (Install Maven 3)
