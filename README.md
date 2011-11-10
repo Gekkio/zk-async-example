@@ -7,6 +7,8 @@ This is a sample project that shows one way of implementing asynchronous backgro
 
 ## Running the example
 
+*Do you want to test the asynchronous prototype instead? Switch to async branch (select async from "Current branch:" at top right section of this page)*
+
 # 1. Get the project
 
 Either clone the repository
@@ -19,3 +21,8 @@ or download a ZIP by using the ZIP button above and unzip that.
 
 * `mvn jetty:run`
 * Go to [http://localhost:8080/](http://localhost:8080/).
+
+## Experimenting with thread starvation
+
+You can test server push thread starvation by uncommenting the relevant section in pom.xml.
+This will force Jetty to use only 3 threads and you'll quickly see if any of those threads are blocked.
