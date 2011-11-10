@@ -1,0 +1,3 @@
+<atmosphere-handlers>
+	<atmosphere-handler context-root="/zkau/comet" class-name="fi.jawsy.jawscala.zk.async.CometAtmosphereHandler" />
+</atmosphere-handlers>
