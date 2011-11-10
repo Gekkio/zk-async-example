@@ -23,6 +23,12 @@ public class ExampleTask extends AsyncTask {
 
     @Override
     protected Event execute() {
+        List<Integer> results = generateNumbers(amount);
+
+        return new ExampleResultEvent(results);
+    }
+
+    public static List<Integer> generateNumbers(int amount) {
         List<Integer> results = new ArrayList<Integer>(amount);
 
         for (int i = 0; i < amount; i++) {
@@ -37,7 +43,7 @@ public class ExampleTask extends AsyncTask {
             e.printStackTrace();
         }
 
-        return new ExampleResultEvent(results);
+        return results;
     }
 
 }
