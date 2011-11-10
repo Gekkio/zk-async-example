@@ -8,7 +8,7 @@
 
 	<properties>
 		<javax.servlet.version>3.0.1</javax.servlet.version>
-		<jawscala.version>0.1.0</jawscala.version>
+		<jawscala.version>0.1.1</jawscala.version>
 		<zk.version>5.0.9</zk.version>
 	</properties>
 
