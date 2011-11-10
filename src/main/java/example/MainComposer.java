@@ -1,6 +1,7 @@
 package example;
 
 import org.zkoss.zk.ui.Executions;
+import org.zkoss.zk.ui.util.Clients;
 import org.zkoss.zk.ui.util.GenericForwardComposer;
 import org.zkoss.zul.Window;
 
@@ -22,6 +23,10 @@ public class MainComposer extends GenericForwardComposer {
         window.setTop(top + "%");
 
         counter += 1;
+    }
+
+    public void onClick$alertButton() {
+        Clients.alert("Test");
     }
 
 }

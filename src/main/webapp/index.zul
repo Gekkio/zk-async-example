@@ -3,4 +3,5 @@
 	xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd" apply="example.MainComposer" style="border-bottom: 1px solid #bbb">
 	<label value="Welcome to the ZK asynchronous task example!" />
 	<button id="addButton" label="New window" />
+	<button id="alertButton" label="Show test alert" />
 </hlayout>
