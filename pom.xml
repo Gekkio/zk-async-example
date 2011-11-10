@@ -9,6 +9,7 @@
 	<properties>
 		<javax.servlet.version>3.0.1</javax.servlet.version>
 		<jawscala.version>0.1.1</jawscala.version>
+		<logback.version>1.0.0</logback.version>
 		<zk.version>5.0.9</zk.version>
 	</properties>
 
@@ -18,6 +19,12 @@
 			<groupId>fi.jawsy.jawscala</groupId>
 			<artifactId>jawscala-zk-async_2.9.1</artifactId>
 			<version>${jawscala.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>${logback.version}</version>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.zkoss.theme</groupId>
