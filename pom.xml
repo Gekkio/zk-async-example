@@ -8,11 +8,17 @@
 
 	<properties>
 		<javax.servlet.version>3.0.1</javax.servlet.version>
+		<jawscala.version>0.1.0</jawscala.version>
 		<zk.version>5.0.9</zk.version>
 	</properties>
 
 	<dependencies>
 		<!-- *** Compile dependencies *** -->
+		<dependency>
+			<groupId>fi.jawsy.jawscala</groupId>
+			<artifactId>jawscala-zk-async_2.9.1</artifactId>
+			<version>${jawscala.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.zkoss.theme</groupId>
 			<artifactId>breeze</artifactId>
@@ -62,6 +68,16 @@
 	</dependencies>
 
 	<repositories>
+		<repository>
+			<id>Jawsy_releases</id>
+			<url>http://oss.jawsy.fi/maven2/releases</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
 		<repository>
 			<id>ZK_CE</id>
 			<name>ZK CE Repository</name>
