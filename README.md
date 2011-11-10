@@ -1,4 +1,4 @@
-zk-async-example
+zk-async-example (with asynchronous server push)
 =================
 
 ## Introduction
@@ -7,7 +7,7 @@ This is a sample project that shows one way of implementing asynchronous backgro
 
 ## Running the example
 
-*Do you want to test the asynchronous prototype instead? Switch to async branch (select async from "Current branch:" at top right section of this page)*
+*Do you want to test the normal version instead? Switch to master branch (select master from "Current branch:" at top right section of this page)*
 
 # 1. Get the project
 
