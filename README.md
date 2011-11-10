@@ -7,6 +7,8 @@ This is a sample project that shows one way of implementing asynchronous backgro
 
 ## Running the example
 
+*Do you want to test the asynchronous prototype instead? Switch to async branch (select async from "Current branch:" at top right section of this page)*
+
 # 1. Get the project
 
 Either clone the repository
